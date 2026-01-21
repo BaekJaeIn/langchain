@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "==0.1.16"
+langchain-core = "==0.1.53"
+langchain-community = "==0.0.38"
+langchainhub = "==0.1.14"
+langchain-openai = "==0.0.8"
+langchain-google-genai = "==0.0.9"
+faiss-cpu = "*"
+black = "*"
+python-dotenv = "*"
+pymupdf = "*"
+pypdf = "==3.17.4"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.7"
